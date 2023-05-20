@@ -1,0 +1,17 @@
+.forms_titulo {
+    font-size: 2.25 rem;
+    font-family: var(--font-secundaria);
+    font-weight: 600;
+    color: var(--cor-hover);
+    margin-bottom: 20px;
+
+}
+
+.forms_text {
+    font-size: 1.5rem;
+    font-family: var(--font-secundaria);
+    font-weight: 100;
+    color: var(--cor-hover);
+    margin-bottom: 20px;
+
+}

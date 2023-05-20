@@ -1,0 +1,14 @@
+#btnCriar {
+    border: none;
+    border-radius: 20px;
+    width: 100px;
+    background-color: var(--cor-secundaria);
+    color: white;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#btnCriar:hover {
+    background-color: var(--cor-terciaria);
+}

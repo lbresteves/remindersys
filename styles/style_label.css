@@ -1,0 +1,23 @@
+#mensagemLabelType {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+
+#mensagemLabelSelec {
+    position: absolute;
+    top: 65%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.3);
+    pointer-events: none;
+}
+
+#box:focus+#mensagemLabelType {
+    display: none;
+}

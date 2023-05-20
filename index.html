@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lembretes!!</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style_box.css">
+    <link rel="stylesheet" href="./styles/style_btn.css">
+    <link rel="stylesheet" href="./styles/style_label.css">
+    <link rel="stylesheet" href="./styles/style_text.css">
+    <link rel="stylesheet" href="./styles/style_quadro.css">
+
+    <script src="./scripts/script.js"></script>
+    <script src="./scripts/mensagem_box.js"></script>
+    <script src="./scripts/section_lembrete.js"></script>
+
+</head>
+
+<body>
+    <main class="main">
+        <section class="main_forms">
+            <h1 class="forms_titulo">Escreva um novo lembrete:</h1>
+            <div id="label" class="inside_box">
+                <h2 class="forms_text">Lembrete:</h2>
+                <input type="text" id="box" onmouseover="aumentarSombra()" onmouseout="diminuirSombra()"
+                    onclick="limparMensagem()" onblur="verificarMensagem()">
+                <label id="mensagemLabelType" onblur="verificarMensagem()">type...</label>
+            </div>
+
+            <div id="label" class="inside_box">
+                <h2 class="forms_text">Prazo:</h2>
+                <input type="text" id="boxSelec" oninput="formatarData(this)" onmouseover="aumentarSombra()" onmouseout="diminuirSombra()" onclick="limparMensagem()" onblur="verificarMensagem()">
+                <label id="mensagemLabelSelec" onblur="verificarMensagem()">select...</label>
+            </div>
+
+            <button id="btnCriar" onclick="criarLembrete()">Criar</button>
+        </section>
+        <section class="lembretes">
+            <div class="quadro-branco" id="quadroBranco" onmouseover="aumentarSombra(this)" onmouseout="diminuirSombra(this)">
+                <h1 class="forms_titulo">Seus lembretes:</h1>
+
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

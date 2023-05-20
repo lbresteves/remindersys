@@ -1,0 +1,39 @@
+#box {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    font-family: var(--font-secundaria);
+
+}
+
+#boxSelec {
+    outline: none;
+    border: none;
+    border-radius: 20px;
+    width: 300px;
+    height: 30px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in-out;
+    font-family: var(--font-secundaria);
+
+}
+
+.inside_box {
+    position: relative;
+
+}
+
+
+#box:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+#boxSelec:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}

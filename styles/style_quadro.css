@@ -1,0 +1,34 @@
+.quadro-branco {
+    border: none;
+    border-radius: 20px;
+    min-width: 500px;
+    min-height: 600px;
+    background-color: white;
+    padding: 5px;
+    font-family: var(--font-secundaria);
+    color: var(--cor-secundaria);
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.quadro-branco:hover {
+
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.grupo-data {
+    margin-bottom: 20px;
+}
+
+.lembrete {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.fechar-lembrete {
+    cursor: pointer;
+    color: red;
+    font-size: 14px;
+    margin-left: 10px;
+}
